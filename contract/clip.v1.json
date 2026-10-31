@@ -1,0 +1,12 @@
+{
+  "createdAt": "2026-10-31T10:00:00Z",
+  "folderIDs": ["M5EHQ3LHXC79D"],
+  "id": "6f1c2a94-3f55-4c1e-9a0e-0d6f6a7b1c22",
+  "kind": "file",
+  "name": "Reference poster",
+  "note": "Grid study",
+  "payload": "6f1c2a94-3f55-4c1e-9a0e-0d6f6a7b1c22.jpg",
+  "tags": ["poster", "grid"],
+  "url": "https://example.com/poster",
+  "version": 1
+}

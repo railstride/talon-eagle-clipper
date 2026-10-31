@@ -1,0 +1,15 @@
+{
+  "id": "com.railstride.clipper-inbox",
+  "version": "1.0.0",
+  "platform": "mac",
+  "arch": "all",
+  "name": "Clipper Inbox",
+  "logo": "/logo.png",
+  "keywords": ["inbox", "ios", "clipper"],
+  "main": {
+    "serviceMode": true,
+    "url": "index.html",
+    "width": 520,
+    "height": 360
+  }
+}

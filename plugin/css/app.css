@@ -1,0 +1,91 @@
+/* Measurements follow Eagle's panels: 13px text, 6px radius, 28pt controls. */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font:
+    13px/1.4 -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    sans-serif;
+  color: var(--color-text-primary);
+  background: var(--color-background-primary);
+  user-select: none;
+}
+
+main {
+  flex: 1;
+  min-height: 0;
+  padding: 20px;
+  overflow: auto;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.intro {
+  margin: 0 0 20px;
+  color: var(--color-text-secondary);
+}
+
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 16px;
+  margin: 0;
+}
+
+dt {
+  color: var(--color-text-tertiary);
+}
+
+dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+  user-select: text;
+}
+
+dd.refused {
+  color: var(--color-red-text);
+}
+
+footer {
+  flex: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  box-shadow: 0 1px 0 0 inset var(--color-border-secondary);
+}
+
+.button {
+  height: 28px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: 500;
+  color: #fff;
+  background: var(--color-primary);
+}
+
+.button:hover {
+  filter: brightness(1.08);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
