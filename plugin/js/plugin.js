@@ -29,7 +29,7 @@ const writeStored = (key, value) => {
   try {
     localStorage.setItem(key, value);
   } catch (error) {
-    console.error("Clipper could not save a setting", error);
+    console.error("Talon could not save a setting", error);
   }
 };
 
@@ -99,7 +99,7 @@ eagle.onPluginCreate((plugin) => {
 
   document.getElementById("choose").addEventListener("click", async () => {
     const result = await eagle.dialog.showOpenDialog({
-      title: "Choose the inbox folder you picked in Clipper on your iPhone",
+      title: "Choose the inbox folder you picked in Talon on your iPhone",
       properties: ["openDirectory", "createDirectory"],
     });
     const chosen = result && !result.canceled ? result.filePaths[0] : null;
@@ -122,6 +122,6 @@ eagle.onPluginCreate((plugin) => {
 
 eagle.onLibraryChanged(() => {
   console.log(
-    "Clipper: library changed, the catalog is refreshed on the next check",
+    "Talon: library changed, the catalog is refreshed on the next check",
   );
 });

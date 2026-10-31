@@ -1,11 +1,11 @@
 {
   "id": "com.railstride.clipper-inbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "platform": "mac",
   "arch": "all",
-  "name": "Clipper Inbox",
+  "name": "Talon – Eagle Clipper",
   "logo": "/logo.png",
-  "keywords": ["inbox", "ios", "clipper"],
+  "keywords": ["inbox", "ios", "clipper", "talon"],
   "main": {
     "serviceMode": true,
     "url": "index.html",

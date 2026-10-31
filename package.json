@@ -1,6 +1,6 @@
 {
-  "name": "clipper-inbox",
-  "version": "1.0.0",
+  "name": "talon-eagle-clipper",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "test": "node --test"
